@@ -1,2 +1,2 @@
 # cpd200-hello-endpoints-go
-Go labs for CPD 200
+Simple hello world demonstration of Cloud Endpoints in Go.
