@@ -22,7 +22,7 @@ func (h *HelloWorldApi) SayHello(c context.Context) (*Hello, error) {
 }
 
 func (h *HelloWorldApi) SayHelloByName(c context.Context, r *NameReq) (*Hello, error) {
-	return &Hello{Greeting:"Hello World " + r.Name}, nil
+	return &Hello{Greeting:"Hello " + r.Name}, nil
 }
 
 func init() {
