@@ -18,7 +18,7 @@ type NameReq struct {
 }
 
 func (h *HelloWorldApi) SayHello(c context.Context) (*Hello, error) {
-	return &Hello{Greeting:"Hello World"}, nil
+	return &Hello{Greeting:"Hello EndPoints"}, nil
 }
 
 func (h *HelloWorldApi) SayHelloByName(c context.Context, r *NameReq) (*Hello, error) {
